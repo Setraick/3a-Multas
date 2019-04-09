@@ -6,7 +6,8 @@ using System.Web;
 
 namespace Multas.Models
 {
-    public class MultasDB : DbContext {
+    public class MultasDB : DbContext
+    {
 
         public MultasDB() : base("MultasDBConnectionString") { }
 
