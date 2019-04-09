@@ -30,7 +30,7 @@ namespace Multas.Models
 
         //FK para Condutor
         [ForeignKey("Condutor")]
-        public int CondutoresFK { get; set; }    //Base de Dados
+        public int CondutorFK { get; set; }    //Base de Dados
         public Condutores Condutor { get; set; } //C#
 
         //FK para Agente
